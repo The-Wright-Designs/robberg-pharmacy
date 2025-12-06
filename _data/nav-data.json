@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "title": "About",
+    "url": "/#about"
+  },
+  {
+    "title": "Services",
+    "url": "/#services"
+  },
+  {
+    "title": "Products",
+    "url": "/#products"
+  },
+  {
+    "title": "Staff",
+    "url": "/#staff"
+  },
+  {
+    "title": "Reviews",
+    "url": "/#reviews"
+  },
+  {
+    "title": "Contact",
+    "url": "/#contact"
+  }
+]
