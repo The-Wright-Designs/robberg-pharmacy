@@ -31,10 +31,10 @@ const HeroSlider = ({ cssClasses, data }: Props) => {
       loop
     >
       {data.map((slide, index) => (
-        <SwiperSlide key={index} className="pb-8">
+        <SwiperSlide key={index}>
           <Image
             src={slide}
-            alt={`Clone Kings - Image ${index + 1}`}
+            alt={`Robberg Pharmacy - Image ${index + 1}`}
             className="w-full h-full object-cover"
             width={1280}
             height={600}
@@ -43,6 +43,13 @@ const HeroSlider = ({ cssClasses, data }: Props) => {
           />
         </SwiperSlide>
       ))}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white/90 rounded flex w-[85vw] max-w-[500px] flex-col gap-1 items-center p-5 text-center z-10 tablet:p-10">
+        <p className="text-paragraph text-[32px]">Welcome to</p>
+        <p className="text-heading font-semibold text-[48px]">
+          Robberg Pharmacy
+        </p>
+        <p className="text-paragraph text-[32px]">Plettenberg Bay</p>
+      </div>
     </Swiper>
   );
 };

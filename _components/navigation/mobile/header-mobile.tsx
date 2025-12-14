@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import classNames from "classnames";
 
@@ -29,12 +28,7 @@ export function HeaderMobile({ cssClasses }: MobileHeaderProps) {
   }, [isOpen]);
 
   return (
-    <div
-      className={classNames(
-        "bg-black px-7 py-7 border-b-4 border-white desktop:hidden",
-        cssClasses
-      )}
-    >
+    <div className={classNames(cssClasses)}>
       <div className="flex w-full items-center justify-between">
         <Link href="/" className="hover:opacity-90">
           <Logo />
@@ -44,7 +38,7 @@ export function HeaderMobile({ cssClasses }: MobileHeaderProps) {
           className="ease-in-out duration-300 -m-3 p-3"
           aria-label="Open menu"
         >
-          <Menu size={22} color="#FFFFFF" />
+          <Menu size={30} color="#FFFFFF" />
         </button>
       </div>
 
@@ -56,13 +50,13 @@ export function HeaderMobile({ cssClasses }: MobileHeaderProps) {
           }
         )}
       >
-        <div className="flex w-full py-10 items-center px-7 justify-end">
+        <div className="flex w-full py-8 items-center px-5 justify-end">
           <button
             onClick={() => setIsOpen(false)}
             aria-label="Close menu"
-            className="p-2 -m-2"
+            className="p-2 -m-2 -translate-x-4"
           >
-            <X size={22} color="#FFFFFF" />
+            <X size={30} color="#FFFFFF" />
           </button>
         </div>
         <nav className="px-7">
@@ -73,7 +67,7 @@ export function HeaderMobile({ cssClasses }: MobileHeaderProps) {
                   <Link
                     href={url}
                     onClick={() => setIsOpen(false)}
-                    className="text-[18px] text-white font-light p-3 -m-3"
+                    className="text-[18px] text-white font-normal p-3 -m-3"
                   >
                     {title}
                   </Link>

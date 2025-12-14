@@ -7,7 +7,7 @@ export const buttonStyles = (
   redButton?: boolean
 ) =>
   classNames(
-    "border-2 flex text-subheading text-center px-10 py-3 justify-center ease-in-out duration-300 rounded-md",
+    "border-2 flex text-subheading text-center px-10 py-2 justify-center ease-in-out duration-300 rounded-md",
     cssClasses,
     {
       "opacity-50 cursor-not-allowed": pending || disabled,

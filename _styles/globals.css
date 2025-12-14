@@ -14,7 +14,7 @@
   --text-subheading: 1rem;
   --text-subheading--font-weight: 700;
   --text-heading: 2.5rem;
-  --text-heading--font-weight: 600;
+  --text-heading--font-weight: 400;
   --text-heading--line-height: 100%;
 
   --breakpoint-*: initial;
@@ -24,9 +24,9 @@
 }
 
 @layer components {
-  * {
+  body {
     @apply text-black;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
   }
 
   h1,
@@ -92,8 +92,8 @@
 /* swiper styles */
 
 :root {
-  --swiper-pagination-color: #000000;
-  --swiper-pagination-bullet-inactive-color: #000000;
+  --swiper-pagination-color: #E00034;
+  --swiper-pagination-bullet-inactive-color: #E00034;
   --swiper-pagination-bullet-inactive-opacity: 0.5;
   --swiper-pagination-bullet-size: 8px;
   --swiper-pagination-bullet-horizontal-gap: 4px;
