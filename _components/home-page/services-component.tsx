@@ -27,7 +27,7 @@ export default function ServicesComponent({ cssClasses }: Props) {
   return (
     <section
       className={classNames(
-        "-mx-5 bg-black py-15 px-5 desktop:px-15 desktop:-mx-0",
+        "-mx-5 bg-black py-15 px-5 desktop:px-15 desktop:-mx-10",
         cssClasses
       )}
     >

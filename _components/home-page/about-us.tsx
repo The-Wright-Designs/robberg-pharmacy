@@ -65,7 +65,7 @@ export default function AboutUs({ cssClasses }: Props) {
         </div>
 
         <div className="grid gap-10 w-full h-full tablet:gap-5 tablet:grid-cols-2 desktop:grid-cols-1">
-          <div className="relative aspect-video w-full h-full rounded-[4px] overflow-hidden desktop:aspect-auto">
+          <div className="relative aspect-video w-full h-full desktop:aspect-auto">
             <Image
               src="/images/about-us-1.jpg"
               alt="Robberg Pharmacy, Plettenberg Bay"
@@ -74,7 +74,7 @@ export default function AboutUs({ cssClasses }: Props) {
             />
           </div>
 
-          <div className="relative aspect-video w-full h-full rounded-[4px] overflow-hidden desktop:aspect-auto">
+          <div className="relative aspect-video w-full h-full desktop:aspect-auto">
             <Image
               src="/images/about-us-2.jpg"
               alt="Robberg Pharmacy, Plettenberg Bay"
