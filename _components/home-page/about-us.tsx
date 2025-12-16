@@ -59,7 +59,9 @@ export default function AboutUs({ cssClasses }: Props) {
             </div>
           </div>
 
-          <ButtonLink href="#contact">Get In Touch</ButtonLink>
+          <ButtonLink href="#contact" cssClasses="tablet:place-self-start">
+            Get In Touch
+          </ButtonLink>
         </div>
 
         <div className="grid gap-10 w-full h-full tablet:gap-5 tablet:grid-cols-2 desktop:grid-cols-1">

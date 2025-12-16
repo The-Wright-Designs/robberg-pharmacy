@@ -1,6 +1,7 @@
 import HeroComponent from "@/_components/home-page/hero/hero-component";
 import AwardBanner from "@/_components/home-page/award-banner";
 import AboutUs from "@/_components/home-page/about-us";
+import ServicesComponent from "@/_components/home-page/services-component";
 import PageWrapper from "@/_lib/utils/page-wrapper";
 
 export default function HomePage() {
@@ -9,7 +10,8 @@ export default function HomePage() {
       <HeroComponent />
       <AwardBanner />
       <PageWrapper cssClasses="grid gap-15 mt-15">
-        <AboutUs />
+        <AboutUs cssClasses="px-10" />
+        <ServicesComponent />
         <h1>Heading</h1>
         <h3>Subheading</h3>
         <p>
