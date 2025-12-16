@@ -3,5 +3,95 @@
     "/images/placeholders/placeholder-hero-1.jpeg",
     "/images/placeholders/placeholder-hero-2.jpeg",
     "/images/placeholders/placeholder-hero-3.jpeg"
+  ],
+  "staff": [
+    {
+      "image": "/images/staff/pieter-pretorius.jpg",
+      "staffName": "Pieter Pretorius - Owner",
+      "qualifications": [
+        "BPharm"
+      ],
+      "bio": [
+        "For me, this pharmacy is more than a business — it's a commitment to keeping the spirit of the old family pharmacy alive in a changing world.",
+        "Pharmacy at Spar is our vehicle to offer better prices, personal support with medical aids, and a strong, independent alternative to the corporate chains that are trying to swallow community pharmacies. My greatest passion is people, and my special interest lies in wound care — helping patients heal and recover with skill, compassion, and the right knowledge.",
+        "I believe that a pharmacy should be a place where expertise meets empathy. That's why I employ only qualified, graduated pharmacists who share my values. Knowledge and service form the foundation of everything we do — ensuring that every patient who walks through our doors receives the care and attention they deserve."
+      ]
+    },
+    {
+      "image": "/images/staff/marelie-pretorius.jpg",
+      "staffName": "Marelie Pretorius",
+      "qualifications": [
+        "BPharm",
+        "Functional medicine health coach",
+        "Certified Pharmacogenomics consultant"
+      ],
+      "bio": [
+        "I'm a qualified pharmacist from North-West University, with a deep passion for helping people achieve true, lasting wellness. My journey in healthcare has expanded beyond traditional pharmacy — I've also trained as a Functional Medicine Health Coach through the Functional Medicine Coaching Academy (FMCA), and as a Pharmacogenomics Consultant with Antares Pharmacogenomics.",
+        "My work focuses on understanding each person as a whole — not just their symptoms — and guiding them toward better health through personalized, evidence-based care. I believe in merging science with compassion, using both modern medicine and functional health principles to help people restore balance, energy, and vitality in their lives.",
+        "I'm deeply passionate about empowering others to take control of their health, understand their bodies, and make sustainable lifestyle changes that lead to genuine healing."
+      ]
+    },
+    {
+      "image": "/images/staff/brett-stevens.jpg",
+      "staffName": "Brett Stevens",
+      "qualifications": [
+        "BPharm"
+      ],
+      "bio": [
+        "After completing my schooling in Australia, I returned to South Africa to pursue my Bachelor of Pharmacy degree at Rhodes University. My fascination with the sciences—especially the intricate chemistry that drives the human body—has always been at the heart of my career path.",
+        "I believe that healthcare should be deeply personal, centred on understanding and building relationships with patients. I value the opportunity to connect with each individual who walks through our doors, providing care that is both compassionate and tailored to their needs. In the workplace, I particularly enjoy problem-solving and applying clinical knowledge to support patient wellbeing.",
+        "Outside of the pharmacy, I love spending time outdoors, exploring new places, and playing the piano. Having spent several years travelling and working overseas, I have always found myself drawn back to Plettenberg Bay and Robberg Pharmacy. This town holds a special sense of community, and I'm excited to continue strengthening my connection with its people while growing my skills as a pharmacist."
+      ]
+    },
+    {
+      "image": "/images/staff/carina-munro.jpg",
+      "staffName": "Carina Munro",
+      "qualifications": [
+        "BPharm",
+        "GCP + Ethics in Health research compliant"
+      ],
+      "bio": [
+        "I am a qualified pharmacist originally from Potchefstroom and a proud graduate of North-West University. With a strong interest in clinical research and evidence-based healthcare, I am currently involved with TCRI, a research institute in Plettenberg Bay, where I participate in various potential clinical trials. I hold certifications in Good Clinical Practice (GCP) and Pharmaceutical Ethics, ensuring that my work upholds the highest standards of safety and integrity.",
+        "Since 16 July 2024, I have been part of the Robberg Pharmacy team in Plettenberg Bay, where I provide full-time dispensing services. I am passionate about serving the local community, promoting better health for all, and delivering safe, patient-centred pharmaceutical care. My goal is to make a meaningful difference in people's lives through accessible, compassionate, and professional healthcare."
+      ]
+    },
+    {
+      "image": "/images/staff/marieta-marais.jpg",
+      "staffName": "Marieta Marais",
+      "qualifications": [
+        "BPharm",
+        "BSc(Hons) Pharmacology",
+        "PU for CHE"
+      ],
+      "bio": [
+        "I studied pharmacy in Potchefstroom, and I've been part of the Robberg Pharmacy team since 2003. I've also been the Responsible Pharmacist here from the very beginning. Somewhere along the way, I became the person who can track down almost any stock — if it exists, I'll find it! I love solving the tough problems and keeping everything running smoothly. But the best part of my job will always be the people. Helping our customers, getting to know them, and making their day a little easier is why I love what I do."
+      ]
+    },
+    {
+      "image": "/images/staff/heilet-van-endt.jpg",
+      "staffName": "Sr. Heilet Van Endt",
+      "qualifications": [
+        "Registered nurse & midwife"
+      ],
+      "bio": [
+        "I am a registered nurse and midwife.",
+        "I started my practice, Pansy Shell Nursing in 2018, with the main focus on moms and babies.",
+        "I am specialised in paediatric vaccines and women's health. My aim is to provide a more personal experience during my consultations to help parents feel more at ease and have more confidence raising their little ones."
+      ]
+    },
+    {
+      "image": "/images/staff/magretha-de-jager.jpg",
+      "staffName": "Sr. Magretha de Jager",
+      "qualifications": [
+        "Dipl Nursing",
+        "UNISA, Hon BCUR",
+        "UOFS, B CUR",
+        "UNISA, MBL"
+      ],
+      "bio": [
+        "Retha de Jager is a dedicated registered nurse with many years of experience, including more than 15 years specializing in geriatric care. Her passion for learning has guided her through extensive nursing studies, and she continues to expand her knowledge—currently pursuing part-time studies in theology.",
+        "Known for her friendly and caring nature, Retha thrives in meaningful interactions and finds joy in supporting others. Her life reflects compassion, curiosity, and a deep appreciation for people and the world around her."
+      ]
+    }
   ]
 }
