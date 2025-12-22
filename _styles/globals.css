@@ -75,11 +75,35 @@
   top: 0;
   left: 0;
   border: 3px solid transparent;
-  border-top-color: #000000;
+  border-top-color: #FFFFFF;
   animation: spin 1s linear infinite;
 }
 
 .spinner::after {
+  animation-delay: 0.5s;
+}
+
+.spinner-black {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.spinner-black::before,
+.spinner-black::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 3px solid transparent;
+  border-top-color: #3D3A35;
+  animation: spin 1s linear infinite;
+}
+
+.spinner-black::after {
   animation-delay: 0.5s;
 }
 
@@ -164,4 +188,8 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
 }

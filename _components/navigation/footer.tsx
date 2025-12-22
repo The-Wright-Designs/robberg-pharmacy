@@ -28,7 +28,7 @@ const Footer = () => {
               <br />
               <Link
                 href="https://thewrightdesigns.co.za"
-                className="text-white desktop:hover:text-white/80 ease-in-out duration-300"
+                className="text-white desktop:hover:text-link-blue ease-in-out duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >

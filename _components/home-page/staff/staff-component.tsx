@@ -42,7 +42,7 @@ export default function StaffComponent({ cssClasses }: Props) {
             />
           </div>
           <div className="px-5 py-10 flex flex-col gap-3 items-center">
-            <h3 className="text-[24px] font-semibold text-black text-nowrap">
+            <h3 className="text-[24px] font-semibold text-black text-center">
               Robberg Pharmacy Staff
             </h3>
             <p>Nov 2025</p>

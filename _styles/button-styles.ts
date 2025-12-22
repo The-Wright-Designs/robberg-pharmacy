@@ -13,8 +13,7 @@ export const buttonStyles = (
       "opacity-50 cursor-not-allowed": pending || disabled,
       "hover:cursor-pointer": !(disabled || pending),
       "bg-red text-white border-red": redButton,
-      "desktop:hover:bg-white desktop:hover:text-red":
-        redButton && !(disabled || pending),
+      "desktop:hover:bg-red/75": redButton && !(disabled || pending),
       "bg-white text-black border-red": !redButton,
       "desktop:hover:bg-red desktop:hover:text-white":
         !redButton && !(disabled || pending),

@@ -8,9 +8,7 @@
     {
       "image": "/images/staff/pieter-pretorius.jpg",
       "staffName": "Pieter Pretorius - Owner",
-      "qualifications": [
-        "BPharm"
-      ],
+      "qualifications": ["BPharm"],
       "bio": [
         "For me, this pharmacy is more than a business — it's a commitment to keeping the spirit of the old family pharmacy alive in a changing world.",
         "Pharmacy at Spar is our vehicle to offer better prices, personal support with medical aids, and a strong, independent alternative to the corporate chains that are trying to swallow community pharmacies. My greatest passion is people, and my special interest lies in wound care — helping patients heal and recover with skill, compassion, and the right knowledge.",
@@ -34,9 +32,7 @@
     {
       "image": "/images/staff/brett-stevens.jpg",
       "staffName": "Brett Stevens",
-      "qualifications": [
-        "BPharm"
-      ],
+      "qualifications": ["BPharm"],
       "bio": [
         "After completing my schooling in Australia, I returned to South Africa to pursue my Bachelor of Pharmacy degree at Rhodes University. My fascination with the sciences—especially the intricate chemistry that drives the human body—has always been at the heart of my career path.",
         "I believe that healthcare should be deeply personal, centred on understanding and building relationships with patients. I value the opportunity to connect with each individual who walks through our doors, providing care that is both compassionate and tailored to their needs. In the workplace, I particularly enjoy problem-solving and applying clinical knowledge to support patient wellbeing.",
@@ -46,10 +42,7 @@
     {
       "image": "/images/staff/carina-munro.jpg",
       "staffName": "Carina Munro",
-      "qualifications": [
-        "BPharm",
-        "GCP + Ethics in Health research compliant"
-      ],
+      "qualifications": ["BPharm", "GCP + Ethics in Health research compliant"],
       "bio": [
         "I am a qualified pharmacist originally from Potchefstroom and a proud graduate of North-West University. With a strong interest in clinical research and evidence-based healthcare, I am currently involved with TCRI, a research institute in Plettenberg Bay, where I participate in various potential clinical trials. I hold certifications in Good Clinical Practice (GCP) and Pharmaceutical Ethics, ensuring that my work upholds the highest standards of safety and integrity.",
         "Since 16 July 2024, I have been part of the Robberg Pharmacy team in Plettenberg Bay, where I provide full-time dispensing services. I am passionate about serving the local community, promoting better health for all, and delivering safe, patient-centred pharmaceutical care. My goal is to make a meaningful difference in people's lives through accessible, compassionate, and professional healthcare."
@@ -58,11 +51,7 @@
     {
       "image": "/images/staff/marieta-marais.jpg",
       "staffName": "Marieta Marais",
-      "qualifications": [
-        "BPharm",
-        "BSc(Hons) Pharmacology",
-        "PU for CHE"
-      ],
+      "qualifications": ["BPharm", "BSc(Hons) Pharmacology", "PU for CHE"],
       "bio": [
         "I studied pharmacy in Potchefstroom, and I've been part of the Robberg Pharmacy team since 2003. I've also been the Responsible Pharmacist here from the very beginning. Somewhere along the way, I became the person who can track down almost any stock — if it exists, I'll find it! I love solving the tough problems and keeping everything running smoothly. But the best part of my job will always be the people. Helping our customers, getting to know them, and making their day a little easier is why I love what I do."
       ]
@@ -70,9 +59,7 @@
     {
       "image": "/images/staff/heilet-van-endt.jpg",
       "staffName": "Sr. Heilet Van Endt",
-      "qualifications": [
-        "Registered nurse & midwife"
-      ],
+      "qualifications": ["Registered nurse & midwife"],
       "bio": [
         "I am a registered nurse and midwife.",
         "I started my practice, Pansy Shell Nursing in 2018, with the main focus on moms and babies.",
@@ -93,5 +80,39 @@
         "Known for her friendly and caring nature, Retha thrives in meaningful interactions and finds joy in supporting others. Her life reflects compassion, curiosity, and a deep appreciation for people and the world around her."
       ]
     }
-  ]
+  ],
+  "contact": {
+    "phone": "+27 44 501 4630",
+    "afterHoursPhone": "+27 76 481 6327",
+    "accountsEmail": "admin@robbergpharmacy.co.za",
+    "dispensaryEmail": "dispensary@robbergpharmacy.co.za",
+    "address": "Shop 2 Beacon Island Centre, 1 Beacon Isle Drive, Plettenberg Bay, 6600",
+    "tradingHours": [
+      {
+        "label": "Mon – Fri:",
+        "hours": "8am – 6pm",
+        "showBorder": true
+      },
+      {
+        "label": "Sat:",
+        "hours": "8am – 1pm",
+        "showBorder": true
+      },
+      {
+        "label": "Public Holidays:",
+        "hours": "9am – 1pm",
+        "showBorder": true
+      },
+      {
+        "label": "Sundays / Christmas Day / New Year's Day:",
+        "hours": "Closed",
+        "showBorder": true
+      },
+      {
+        "label": "December School Holidays:",
+        "hours": "8am – 7pm every day",
+        "showBorder": false
+      }
+    ]
+  }
 }

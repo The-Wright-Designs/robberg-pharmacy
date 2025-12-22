@@ -1,7 +1,7 @@
 "use server";
 
 import nodemailer from "nodemailer";
-import { contactEmailTemplate } from "@/_lib/utils/email-templates/contact-email-template";
+import { contactEmailTemplate } from "@/_lib/utils/contact-email-template";
 import { verifyRecaptchaToken } from "@/_lib/verify-recaptcha";
 
 interface EmailTemplateData {
@@ -80,9 +80,7 @@ export async function sendEmail(
       await transporter.sendMail(mailOptions);
       return { success: true };
     } else {
-      console.error(
-        "Invalid form submission due to non-empty honeypot field"
-      );
+      console.error("Invalid form submission due to non-empty honeypot field");
       return { success: false, error: "Spam detected" };
     }
   } catch (error) {

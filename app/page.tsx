@@ -4,6 +4,7 @@ import AboutUs from "@/_components/home-page/about-us";
 import ServicesComponent from "@/_components/home-page/services-component";
 import ProductsComponent from "@/_components/home-page/products-component";
 import StaffComponent from "@/_components/home-page/staff/staff-component";
+import ContactSectionComponent from "@/_components/home-page/contact/contact-section-component";
 import PageWrapper from "@/_lib/utils/page-wrapper";
 
 export default function HomePage() {
@@ -16,6 +17,7 @@ export default function HomePage() {
         <ServicesComponent />
         <ProductsComponent />
         <StaffComponent />
+        <ContactSectionComponent />
       </PageWrapper>
     </div>
   );
