@@ -1,8 +1,13 @@
 {
   "heroSlider": [
-    "/images/placeholders/placeholder-hero-1.jpeg",
-    "/images/placeholders/placeholder-hero-2.jpeg",
-    "/images/placeholders/placeholder-hero-3.jpeg"
+    "/images/hero-slider/hero-1.jpg",
+    "/images/hero-slider/hero-2.jpg",
+    "/images/hero-slider/hero-3.jpg",
+    "/images/hero-slider/hero-4.jpg",
+    "/images/hero-slider/hero-7.jpg",
+    "/images/hero-slider/hero-5.jpg",
+    "/images/hero-slider/hero-6.jpg",
+    "/images/hero-slider/hero-8.jpg"
   ],
   "staff": [
     {
