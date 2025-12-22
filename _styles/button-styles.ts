@@ -15,7 +15,7 @@ export const buttonStyles = (
       "bg-red text-white border-red": redButton,
       "desktop:hover:bg-red/75": redButton && !(disabled || pending),
       "bg-white text-black border-red": !redButton,
-      "desktop:hover:bg-red desktop:hover:text-white":
+      "desktop:hover:bg-red/75 desktop:hover:text-white":
         !redButton && !(disabled || pending),
     }
   );

@@ -18,6 +18,7 @@ export default function ContactSectionComponent({ cssClasses }: Props) {
       useRecaptchaNet
     >
       <div className={classNames("flex flex-col gap-15 w-full", cssClasses)}>
+        <h2 className="text-[40px] font-semibold">Contact</h2>
         <div className="flex flex-col desktop:flex-row gap-10 w-full">
           <ContactInfoComponent />
           <TradingHoursComponent />

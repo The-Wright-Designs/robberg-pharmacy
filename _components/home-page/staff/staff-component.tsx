@@ -31,7 +31,7 @@ export default function StaffComponent({ cssClasses }: Props) {
             index={index}
           />
         ))}
-        <div className="rounded-[40px] overflow-hidden max-w-[500px] shadow-md bg-white tablet:max-w-[400px] tablet:min-w-[400px] desktop:col-start-1 desktop:row-start-6 desktop:row-span-2 desktop:min-w-auto">
+        <div className="rounded-[40px] overflow-hidden desktop:max-w-[500px] shadow-md bg-white tablet:max-w-[400px] tablet:min-w-[400px] desktop:col-start-1 desktop:row-start-6 desktop:row-span-2 desktop:min-w-auto">
           <div className="relative aspect-[611/1280]">
             <Image
               src="/images/staff/group-staff.jpg"
