@@ -39,7 +39,7 @@ export default function ServicesComponent({ cssClasses }: Props) {
             <div
               key={index}
               className={classNames(
-                "rounded-[40px] h-full overflow-hidden phone:w-[320px] min-[1360px]:w-[363px] desktop:grid grid-cols-2",
+                "rounded-[40px] h-full overflow-hidden min-w-[240px] phone:w-[320px] min-[1360px]:w-[363px] desktop:grid grid-cols-2",
                 {
                   "tablet:col-span-2 desktop:col-span-1": index === 2,
                 }
