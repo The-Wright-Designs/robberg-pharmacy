@@ -32,7 +32,7 @@ const MapComponent = ({ cssClasses }: Props) => {
       ) {
         markerRef.current = new google.maps.marker.AdvancedMarkerElement({
           map: map,
-          position: { lat: -34.0630032, lng: 23.3718382 },
+          position: { lat: -34.06263124839034, lng: 23.371916954574033 },
           title: "Robberg Pharmacy",
         });
       }
@@ -71,7 +71,7 @@ const MapComponent = ({ cssClasses }: Props) => {
   return (
     <GoogleMap
       zoom={16}
-      center={{ lat: -34.053203855164085, lng: 23.372282499978226 }}
+      center={{ lat: -34.06263124839034, lng: 23.371916954574033 }}
       mapContainerClassName={cssClasses}
       onLoad={onMapLoad}
       onUnmount={onUnmount}

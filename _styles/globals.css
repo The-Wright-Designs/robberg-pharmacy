@@ -24,6 +24,11 @@
 }
 
 @layer components {
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply text-black;
     font-family: "Lato", Arial, sans-serif;

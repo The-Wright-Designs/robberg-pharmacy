@@ -14,11 +14,17 @@ export default function HomePage() {
       <HeroComponent />
       <AwardBanner />
       <PageWrapper cssClasses="grid gap-15 mt-15">
+        <div id="about" className="scroll-mt-24" />
         <AboutUs />
+        <div id="services" className="scroll-mt-24" />
         <ServicesComponent />
+        <div id="products" className="scroll-mt-24" />
         <ProductsComponent />
+        <div id="staff" className="scroll-mt-24" />
         <StaffComponent />
+        <div id="reviews" className="scroll-mt-24" />
         <ReviewsComponent />
+        <div id="contact" className="scroll-mt-24" />
         <ContactSectionComponent />
       </PageWrapper>
     </div>
