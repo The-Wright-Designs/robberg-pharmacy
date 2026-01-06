@@ -30,6 +30,7 @@ export default function ProductsComponent({ cssClasses }: Props) {
 
               <ul className="list-disc ml-6">
                 <li className="text-paragraph text-black">Clarins</li>
+                <li className="text-paragraph text-black">Vichy</li>
                 <li className="text-paragraph text-black">Revlon</li>
                 <li className="text-paragraph text-black">Bioderma</li>
                 <li className="text-paragraph text-black">WOW skincare</li>
@@ -44,7 +45,7 @@ export default function ProductsComponent({ cssClasses }: Props) {
               <ul className="list-disc ml-6">
                 <li className="text-paragraph text-black">Solgar</li>
                 <li className="text-paragraph text-black">DNA</li>
-                <li className="text-paragraph text-black">Re-Vive</li>
+                <li className="text-paragraph text-black">Revive</li>
               </ul>
 
               <p className="text-paragraph text-black">
