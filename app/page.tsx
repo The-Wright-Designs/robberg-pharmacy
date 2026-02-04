@@ -13,7 +13,7 @@ export default function HomePage() {
     <div>
       <HeroComponent />
       <AwardBanner />
-      <PageWrapper cssClasses="grid gap-15 mt-15">
+      <PageWrapper cssClasses="flex flex-col gap-15 mt-15">
         <div id="about" className="scroll-mt-24" />
         <AboutUs />
         <div id="services" className="scroll-mt-24" />

@@ -27,8 +27,8 @@ export default function ServicesComponent({ cssClasses }: Props) {
   return (
     <section
       className={classNames(
-        "-mx-5 bg-black py-15 px-5 desktop:px-15 desktop:-mx-10",
-        cssClasses
+        "-mx-5 tablet:-mx-10 bg-black py-15 px-5 desktop:px-15 desktop:-mx-10",
+        cssClasses,
       )}
     >
       <div className="flex flex-col gap-10 items-center">
@@ -42,7 +42,7 @@ export default function ServicesComponent({ cssClasses }: Props) {
                 "rounded-[40px] h-full overflow-hidden min-w-[240px] phone:w-[320px] min-[1360px]:w-[363px] desktop:grid grid-cols-2",
                 {
                   "tablet:col-span-2 desktop:col-span-1": index === 2,
-                }
+                },
               )}
             >
               <div className="px-7 py-5 bg-white flex items-center justify-center">
