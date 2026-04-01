@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-paragraph text-white flex flex-col w-full items-center tablet:justify-center tablet:flex-row tablet:gap-1">
-          © 2025 Robberg Pharmacy
+          © {new Date().getFullYear()} Robberg Pharmacy
           <span className="hidden tablet:block">|</span>
           <Link
             href="/"

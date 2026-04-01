@@ -45,15 +45,6 @@
       ]
     },
     {
-      "image": "/images/staff/carina-munro.jpg",
-      "staffName": "Carina Munro",
-      "qualifications": ["BPharm", "GCP + Ethics in Health research compliant"],
-      "bio": [
-        "I am a qualified pharmacist originally from Potchefstroom and a proud graduate of North-West University. With a strong interest in clinical research and evidence-based healthcare, I am currently involved with TCRI, a research institute in Plettenberg Bay, where I participate in various potential clinical trials. I hold certifications in Good Clinical Practice (GCP) and Pharmaceutical Ethics, ensuring that my work upholds the highest standards of safety and integrity.",
-        "Since 16 July 2024, I have been part of the Robberg Pharmacy team in Plettenberg Bay, where I provide full-time dispensing services. I am passionate about serving the local community, promoting better health for all, and delivering safe, patient-centred pharmaceutical care. My goal is to make a meaningful difference in people's lives through accessible, compassionate, and professional healthcare."
-      ]
-    },
-    {
       "image": "/images/staff/marieta-marais.jpg",
       "staffName": "Marieta Marais",
       "qualifications": ["BPharm", "BSc(Hons) Pharmacology", "PU for CHE"],
@@ -69,20 +60,6 @@
         "I am a registered nurse and midwife.",
         "I started my practice, Pansy Shell Nursing in 2018, with the main focus on moms and babies.",
         "I am specialised in paediatric vaccines and women's health. My aim is to provide a more personal experience during my consultations to help parents feel more at ease and have more confidence raising their little ones."
-      ]
-    },
-    {
-      "image": "/images/staff/magretha-de-jager.jpg",
-      "staffName": "Sr. Magretha de Jager",
-      "qualifications": [
-        "Dipl Nursing",
-        "UNISA, Hon BCUR",
-        "UOFS, B CUR",
-        "UNISA, MBL"
-      ],
-      "bio": [
-        "Retha de Jager is a dedicated registered nurse with many years of experience, including more than 15 years specializing in geriatric care. Her passion for learning has guided her through extensive nursing studies, and she continues to expand her knowledge—currently pursuing part-time studies in theology.",
-        "Known for her friendly and caring nature, Retha thrives in meaningful interactions and finds joy in supporting others. Her life reflects compassion, curiosity, and a deep appreciation for people and the world around her."
       ]
     }
   ],

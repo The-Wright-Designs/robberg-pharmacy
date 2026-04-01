@@ -8,17 +8,12 @@ import Link from "next/link";
 
 const ContactFormComponent = () => {
   const { executeRecaptcha } = useGoogleReCaptcha();
-  const [submissionStartTime, setSubmissionStartTime] = useState(0);
   const [showEmailSubmitted, setShowEmailSubmitted] = useState(false);
   const [showMessage, setShowMessage] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
-    const startSubmissionTimer = () => {
-      setSubmissionStartTime(new Date().getTime());
-    };
-    startSubmissionTimer();
     if (showEmailSubmitted) {
       const element = document.getElementById("contact");
       if (element) {
