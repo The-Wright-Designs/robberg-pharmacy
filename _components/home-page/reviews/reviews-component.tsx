@@ -40,6 +40,7 @@ export default async function ReviewsComponent({ cssClasses }: Props) {
               src="/images/powered-by-google.png"
               alt="Powered by Google"
               fill
+              sizes="138px"
               className="object-contain"
             />
           </div>

@@ -70,6 +70,7 @@ export default function AboutUs({ cssClasses }: Props) {
               src="/images/about-us-1.jpg"
               alt="Robberg Pharmacy, Plettenberg Bay"
               fill
+              sizes="(min-width: 1280px) 620px, (min-width: 800px) 50vw, 100vw"
               className="object-cover desktop:h-full desktop:w-full"
             />
           </div>
@@ -79,6 +80,7 @@ export default function AboutUs({ cssClasses }: Props) {
               src="/images/about-us-2.jpg"
               alt="Robberg Pharmacy, Plettenberg Bay"
               fill
+              sizes="(min-width: 1280px) 620px, (min-width: 800px) 50vw, 100vw"
               className="object-cover desktop:h-full desktop:w-full"
             />
           </div>

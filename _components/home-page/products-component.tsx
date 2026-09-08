@@ -84,6 +84,7 @@ export default function ProductsComponent({ cssClasses }: Props) {
               src="/images/products-1.jpg"
               alt="Robberg Pharmacy Products - Puzzles"
               fill
+              sizes="(min-width: 1280px) 300px, (min-width: 800px) 25vw, 50vw"
               className="object-cover"
               loading="lazy"
             />
@@ -94,6 +95,7 @@ export default function ProductsComponent({ cssClasses }: Props) {
               src="/images/products-2.jpg"
               alt="Robberg Pharmacy Products - Hats and Accessories"
               fill
+              sizes="(min-width: 1280px) 300px, (min-width: 800px) 25vw, 50vw"
               className="object-cover"
               loading="lazy"
             />
@@ -104,6 +106,7 @@ export default function ProductsComponent({ cssClasses }: Props) {
               src="/images/products-3.jpg"
               alt="Robberg Pharmacy Products - Chocolates and Nougat"
               fill
+              sizes="(min-width: 1280px) 300px, (min-width: 800px) 25vw, 50vw"
               className="object-cover"
               loading="lazy"
             />
@@ -114,6 +117,7 @@ export default function ProductsComponent({ cssClasses }: Props) {
               src="/images/products-4.jpg"
               alt="Robberg Pharmacy Products - Skincare"
               fill
+              sizes="(min-width: 1280px) 300px, (min-width: 800px) 25vw, 50vw"
               className="object-cover"
               loading="lazy"
             />

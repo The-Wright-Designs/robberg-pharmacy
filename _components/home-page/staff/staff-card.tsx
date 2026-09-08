@@ -41,6 +41,7 @@ export default function StaffCard({
           src={image}
           alt={staffName}
           fill
+          sizes="(min-width: 1280px) 331px, (min-width: 800px) 50vw, 100vw"
           className="object-cover"
           loading="lazy"
         />

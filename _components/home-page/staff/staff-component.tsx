@@ -22,19 +22,19 @@ export default function StaffComponent({ cssClasses }: Props) {
             bio={member.bio}
             flipImage={index % 2 === 1}
             cssClasses={classNames({
-              "desktop:col-span-2": index < 3,
-              "desktop:col-start-2 desktop:row-start-4 desktop:row-span-1":
-                index === 3,
+              "desktop:col-start-2": index === 1 || index === 2,
+              "desktop:col-span-2": index === 0 || index > 2,
             })}
             index={index}
           />
         ))}
-        <div className="rounded-[40px] overflow-hidden desktop:max-w-[500px] shadow-md bg-white tablet:max-w-[400px] tablet:min-w-[400px] desktop:col-start-1 desktop:row-start-4 desktop:row-span-2 desktop:min-w-auto">
+        <div className="rounded-[40px] overflow-hidden desktop:max-w-[500px] shadow-md bg-white tablet:max-w-[400px] tablet:min-w-[400px] desktop:col-start-1 desktop:row-start-2 desktop:row-span-2 desktop:min-w-auto">
           <div className="relative aspect-[611/1280]">
             <Image
               src="/images/staff/group-staff.jpg"
               alt="Robberg Pharmacy staff"
               fill
+              sizes="(min-width: 1280px) 500px, (min-width: 800px) 400px, 100vw"
               className="object-cover"
               loading="lazy"
             />
