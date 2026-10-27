@@ -22,10 +22,63 @@
     },
     {
       "image": "/images/staff/marieta-marais.jpg",
-      "staffName": "Marieta Marais",
+      "staffName": "Marieta Marais - Pharmacist",
       "qualifications": ["BPharm", "BSc(Hons) Pharmacology", "PU for CHE"],
       "bio": [
         "I studied pharmacy in Potchefstroom, and I've been part of the Robberg Pharmacy team since 2003. I've also been the Responsible Pharmacist here from the very beginning. Somewhere along the way, I became the person who can track down almost any stock — if it exists, I'll find it! I love solving the tough problems and keeping everything running smoothly. But the best part of my job will always be the people. Helping our customers, getting to know them, and making their day a little easier is why I love what I do."
+      ]
+    },
+    {
+      "image": "/images/staff/gerrit-wessels.jpeg",
+      "staffName": "Gerrit Wessels - Pharmacist",
+      "qualifications": ["BPharm"],
+      "bio": [
+        "Hello to the wonderful Plettenberg Bay community!",
+        "My name is Gerrit Wessels, and I am delighted to be part of the Robberg Pharmacy family.",
+        "I obtained my Bachelor of Pharmacy degree from North-West University and have a particular passion for the clinical side of pharmacy.",
+        "I believe that good pharmaceutical care goes beyond dispensing medication. It is about taking the time to listen, understanding each patient's individual needs, and offering professional advice and care that people can genuinely trust.",
+        "I am passionate about continually expanding my knowledge and developing my skills, as I believe that learning and growing are essential to providing the best possible care.",
+        "For me, one of the greatest rewards of being a pharmacist is knowing that I can make a meaningful difference in someone's health and well-being, even through the smallest acts of care and kindness.",
+        "I look forward to building lasting relationships with our patients and becoming a trusted part of this wonderful community."
+      ]
+    },
+    {
+      "image": "/images/staff/nicus-van-den-bergh.jpeg",
+      "staffName": "Nicus van den Bergh - Pharmacist Intern",
+      "qualifications": ["BPharm"],
+      "bio": [
+        "We are delighted to welcome Nicus van den Bergh to the Robberg Pharmacy team in December! Nicus completed his pharmacy studies in Potchefstroom and brings with him a genuine passion for people and their well-being.",
+        "For Nicus, pharmacy is about so much more than dispensing medication. It is about building meaningful relationships, listening to people's stories, and making a positive difference in their lives.",
+        "He believes that compassionate, personalised care is at the heart of good pharmacy practice. Every patient deserves to feel heard, valued, and confident that their health is in caring hands.",
+        "“For me, the greatest reward is knowing that I have made a difference in someone's life, no matter how small. It is that personal connection that makes pharmacy so special.”",
+        "We look forward to having Nicus as part of the Robberg Pharmacy family and know that his warm, caring approach will be appreciated by our patients."
+      ]
+    },
+    {
+      "image": "/images/staff/louwrens-erasmus.jpeg",
+      "staffName": "Louwrens (Rassie) Erasmus - Stock Controller",
+      "qualifications": [],
+      "bio": [
+        "Hallo aan al die vriendelike mense van Plettenbergbaai!",
+        "My naam is Louwrens Erasmus, maar almal ken my sommer as Rassie!",
+        "Ek is 'n afgetrede polisiebeampte wat die afgelope vyf jaar my kennis en ervaring in die apteekwêreld as voorraadbeheerder opgebou het.",
+        "Ek glo daarin om my werk met verantwoordelikheid, noukeurigheid en trots te doen. Vir my is dit belangrik dat alles agter die skerms glad verloop, sodat die apteekspan die beste moontlike diens aan ons pasiënte kan lewer. Ek geniet dit ook om met mense te gesels en nuwe vriendskappe te bou.",
+        "Wanneer ek nie besig is om voorraad in orde te hou nie, geniet ek 'n potjie gholf of tennis. Een van my grootste vreugdes is egter om saam met my wederhelfte op ons motorfiets die pragtige skepping van ons Hemelse Vader te verken. Ons neem graag foto's van die natuur en deel dit met vriende wat nie altyd self die geleentheid het om hierdie besondere plekke te beleef nie.",
+        "Ons geloof vorm die middelpunt van ons lewe en verhouding. Ons glo dat wanneer ons ons Hemelse Vader eerste stel, alles volgens Sy wil en op Sy volmaakte tyd in plek val.",
+        "Ek sien daarna uit om deel van die Robberg Apteek-familie te wees en my bydrae tot hierdie besondere span en gemeenskap te lewer!"
+      ]
+    },
+    {
+      "image": "/images/staff/sorette-erasmus.jpeg",
+      "staffName": "Sorette Erasmus - Pharmacy Assistant",
+      "qualifications": ["Post Basic NQF level 4"],
+      "bio": [
+        "Hallo aan al die wonderlike mense van Plettenbergbaai!",
+        "My naam is Sorette Erasmus, en dit is vir my 'n groot voorreg om deel van die Robberg Apteek-familie te word.",
+        "Ek is 'n gekwalifiseerde aptekersassistent met 'n opregte liefde vir mense en 'n besondere sagte plekkie vir die ouer geslag in ons gemeenskap. Ek glo dat 'n vriendelike glimlag, 'n luisterende oor en 'n bietjie ekstra omgee 'n groot verskil in iemand se dag kan maak.",
+        "Wanneer ek nie by die apteek besig is nie, geniet ek dit om in die vars buitelug te gaan hardloop of stap en die mooi natuur om ons te waardeer.",
+        "My geloof in ons Hemelse Vader is die fondament van my lewe. Ek is dankbaar vir Sy genade en leiding, en streef daarna om Sy liefde uit te leef in die manier waarop ek ander mense behandel.",
+        "Ek sien baie daarna uit om julle almal te ontmoet en deel te word van hierdie besonderse gemeenskap!"
       ]
     },
     {

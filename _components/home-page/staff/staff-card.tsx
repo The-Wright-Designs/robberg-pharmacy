@@ -31,7 +31,7 @@ export default function StaffCard({
     >
       <div
         className={classNames(
-          "relative aspect-square w-full desktop:max-w-[331px] desktop:h-full",
+          "relative aspect-square w-full desktop:max-w-[331px] desktop:h-full desktop:shrink-0",
           {
             "desktop:order-2": flipImage,
           }

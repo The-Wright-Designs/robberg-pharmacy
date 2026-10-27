@@ -20,16 +20,19 @@ export default function StaffComponent({ cssClasses }: Props) {
             staffName={member.staffName}
             qualifications={member.qualifications}
             bio={member.bio}
-            flipImage={index % 2 === 1}
+            flipImage={
+              index === 5 ? false : index === 6 ? true : index % 2 === 1
+            }
             cssClasses={classNames({
-              "desktop:col-start-2": index === 1 || index === 2,
-              "desktop:col-span-2": index === 0 || index > 2,
+              "desktop:col-span-2": index < 5,
+              "desktop:col-start-2 desktop:row-start-6 desktop:row-span-1":
+                index === 5,
             })}
             index={index}
           />
         ))}
-        <div className="rounded-[40px] overflow-hidden desktop:max-w-[500px] shadow-md bg-white tablet:max-w-[400px] tablet:min-w-[400px] desktop:col-start-1 desktop:row-start-2 desktop:row-span-2 desktop:min-w-auto">
-          <div className="relative aspect-[611/1280]">
+        <div className="rounded-[40px] overflow-hidden desktop:max-w-[500px] shadow-md bg-white tablet:max-w-[400px] tablet:min-w-[400px] desktop:col-start-1 desktop:row-start-6 desktop:row-span-2 desktop:min-w-auto desktop:flex desktop:flex-col">
+          <div className="relative aspect-[611/1280] desktop:aspect-auto desktop:flex-1">
             <Image
               src="/images/staff/group-staff.jpg"
               alt="Robberg Pharmacy staff"
